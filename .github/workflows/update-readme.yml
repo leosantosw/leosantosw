@@ -9,9 +9,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: secret credentials
-        env:
-          EMAIL: ${{ secrets.SECRET_EMAIL }}
-          USERNAME: ${{ secrets.USERNAME }}
+        run: |
+          env:
+            EMAIL: ${{ secrets.SECRET_EMAIL }}
+            USERNAME: ${{ secrets.USERNAME }}
       - uses: actions/checkout@v2
       - name: Setup Node.js
         uses: actions/setup-node@v1
