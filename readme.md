@@ -1,6 +1,6 @@
-<img align='right' src='https://github.com/Rishit-dagli/Rishit-dagli/blob/master/images/octocat-anime.gif' width='150"'>
-
 ### Happy, Saturday!
+
+<img align='right' src='https://github.com/Rishit-dagli/Rishit-dagli/blob/master/images/octocat-anime.gif' width='150"'>
 
 I'm Leo Santos, a software engineer 💻 with over 2 years of experience in the industry 🌟. I specialize in building scalable and reliable systems using modern technologies such as microservices 🚀 and front-end applications 🎨.
 
