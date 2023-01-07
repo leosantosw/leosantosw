@@ -1,0 +1,26 @@
+on:
+  schedule:
+    - cron: '0 0 * * *'
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: '16.x'
+      - name: Install dependencies
+        run: |
+          npm install dayjs
+      - name: Update Readme
+        run: |
+          day_of_week=$(node -e "console.log(require('dayjs')().format('dddd'))")
+          
+          sed -i "s/\(Happy, \).*/\1$day_of_week!/" readme.md
+          
+          git add readme.md
+          
+          commit_message="Daily update of README on $day_of_week"
+          git commit -m "$commit_message"
+          git push
