@@ -8,12 +8,11 @@ jobs:
   update-readme:
     runs-on: ubuntu-latest
     steps:
-      - name: secret credentials
-        run: |
-          env:
-            EMAIL: ${{ secrets.SECRET_EMAIL }}
-            USERNAME: ${{ secrets.USERNAME }}
       - uses: actions/checkout@v2
+      - name: secret credentials
+        env:
+          EMAIL: ${{ secrets.SECRET_EMAIL }}
+          USERNAME: ${{ secrets.USERNAME }}
       - name: Setup Node.js
         uses: actions/setup-node@v1
         with:
