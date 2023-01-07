@@ -22,6 +22,9 @@ jobs:
           
           sed -i "s/\(Happy, \).*/\1$day_of_week!/" readme.md
           
+          git config --global user.email "leonardosantosx0077@gmail.com"
+          git config --global user.name "leosantosw"
+          
           git add readme.md
           
           commit_message="Daily update of README on $day_of_week"
