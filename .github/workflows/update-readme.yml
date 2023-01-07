@@ -8,7 +8,7 @@ jobs:
   update-readme:
     runs-on: ubuntu-latest
     steps:
-      - name: Print secret value
+      - name: secret credentials
         env:
           EMAIL: ${{ secrets.SECRET_EMAIL }}
           USERNAME: ${{ secrets.USERNAME }}
