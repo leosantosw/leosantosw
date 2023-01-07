@@ -13,9 +13,6 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: '16.x'
-        env:
-          EMAIL: ${{ secrets.SECRET_EMAIL }}
-          USERNAME: ${{ secrets.USERNAME }}
       - name: Install dependencies
         run: |
           npm install dayjs
@@ -25,8 +22,8 @@ jobs:
           
           sed -i "s/\(Happy, \).*/\1$day_of_week!/" readme.md
           
-          git config --global user.email "$EMAIL"
-          git config --global user.name "$USERNAME"
+          git config --global user.email ${{ secrets.SECRET_EMAIL }}
+          git config --global user.name ${{ secrets.USERNAME }}
           
           git add readme.md
           
