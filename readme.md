@@ -2,7 +2,7 @@
 
 <img align='right' src='https://github.com/Rishit-dagli/Rishit-dagli/blob/master/images/octocat-anime.gif' width='150"'>
 
-I'm Leo Santos, a software engineer 💻 with over 2 years of experience in the industry 🌟. I specialize in building scalable and reliable systems using modern technologies such as microservices 🚀 and front-end applications 🎨.
+I'm Leo Santos, a software engineer 💻 with over 3 years of experience in the industry 🌟. I specialize in building scalable and reliable systems using modern technologies such as microservices 🚀 and front-end applications 🎨.
 
 I am currently focused on developing new and innovative solutions using cutting-edge technologies 🦄, with a particular interest in cloud native applications 🌩.
  
