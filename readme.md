@@ -12,7 +12,7 @@ Sou Leo, Desenvolvedor Pleno Full Stack com 4 anos de experiência em e-commerce
 
 ### 🤝🏻 Connect with Me
 
-  [![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=LinkedIn&logoSize=10&label=leosantos&link=https://www.linkedin.com/in/leosantos02)](https://www.linkedin.com/in/leonardosant02) 
+  [![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=LinkedIn&logoSize=10&label=leosantos&link=https://www.linkedin.com/in/leosantos02)](https://www.linkedin.com/in/leosantos02) 
   [![Gmail Badge](https://img.shields.io/badge/leonardosantosx0077@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:leonardosantosx0077@gmail.com)](mailto:leonardosantosx0077@gmail.com) 
 
 </footer>
